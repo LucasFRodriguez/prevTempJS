@@ -10,17 +10,23 @@
     <title>DEV RODRIGUEZ - Previsão do Tempo</title>
 </head>
 <body>
-    <div>
-        <input placeholder="Digite o nome da cidade">
-        <button>Buscar</button>
+    <div class="caixa-maior">
+        <input class="input-cidade" placeholder="Digite o nome da cidade">
+        <button class="butao-busca" > <img class="img-busca" src="https://www.svgrepo.com/show/488200/find.svg" alt="busca"> </button>
 
-        <h2>Tempo em Brasilia</h2>
 
-        <p>21°C</p>
+        <div class="caixa-media">
+            <h2 class="cidade" >Tempo em Brasilia</h2>
 
-        <img alt="icone-do-info-tempo" src="https://openweathermap.org/img/wn/04n.png" > <p>Nublado</p>
+            <p class="temp">21°C</p>
 
-        <p>Umidade: 76%</p>
+            <div class="caixa-menor">
+                <img class="img-previsao" alt="icone-do-info-tempo" src="https://openweathermap.org/img/wn/04n.png" > 
+                <p class="texto-previsao" >Nublado</p>
+            </div>
+
+            <p class="umidade">Umidade: 76%</p>
+        </div>
 
     </div>
 </body>
