@@ -71,6 +71,7 @@ body{
 }
 
 .texto-previsao{
+    text-transform: capitalize;
     color: #ffffff;
     margin-left: 20px;
 }
